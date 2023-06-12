@@ -27,6 +27,8 @@ func init() {
 }
 
 func TestLoadRegistry(t *testing.T) {
+	// hello
+
 	assert.NotEmpty(t, globalRegistryByName[IANAEnterpriseID])
 	assert.NotEmpty(t, globalRegistryByName[AntreaEnterpriseID])
 	assert.NotEmpty(t, globalRegistryByName[IANAReversedEnterpriseID])
